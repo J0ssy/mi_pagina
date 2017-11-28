@@ -1,0 +1,202 @@
+/*Resetear el Navegador*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Tipografía al Documento*/
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Menú*/
+header {
+  background-color: OrangeRed;
+  height: 3em;
+  width: 100%;
+}
+
+/*Título del Menú*/
+.navbar h1 {
+  font-size: 2em;
+  color: #FFF;
+  display: inline-block;
+  text-align: left;
+  margin-top: 0.5%;
+  cursor: pointer;
+  transition: color .3s ease-out;
+}
+
+/*Categorías Menú*/
+.navbar ul {
+  display: inline-block;
+  transition: color .3s ease-out;
+  float: right;
+
+}
+
+.navbar li {
+  padding: 1em;
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  transition: color .3s ease-out;
+}
+
+.navbar a {
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color .3s ease-out;
+}
+
+/*Efecto sobre menu*/
+.navbar a:hover, .navbar h1:hover {
+  color: Khaki;
+}
+
+/*Image Banner*/
+.banner {
+  background-image: url(../img/banner.png);
+  width: 100%;
+  height: 25em;
+  background-position: center;
+  object-fit: cover;
+}
+
+.first-section {
+  padding: 2em 0;
+}
+
+.first-section h1 {
+  color: OrangeRed;
+  font-size: 2em;
+}
+
+.first-section p {
+  margin-top: 1em;
+  font-size: 16px;
+  color: DarkSlateGray;
+  width: 80%;
+}
+
+.first-section ul {
+  margin-top: 1em;
+}
+
+.first-section li {
+  color: DarkSlateGray;
+  list-style: none;
+  line-height: 2;
+}
+
+.first-section a {
+  color: OrangeRed;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color .3s ease-out;
+}
+
+.first-section a:hover {
+    color: Orange;
+}
+
+.first-section button {
+  background-color: OrangeRed;
+  color: #FFF;
+  margin-top: 1em;
+  padding: 1em;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 6px;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  transition: background-color .3s ease-out;
+}
+
+.first-section button:hover {
+  background-color: Orange;
+}
+
+.second-section {
+  padding: 3em;
+  text-align: center;
+  color: SlateGray;
+}
+
+.card-1 {
+  background-image: url(../img/charmander.jpg);
+  height: 12em;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card-2 {
+  background-image: url(../img/charmeleon.png);
+  height: 12em;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 93%;
+  background-repeat: no-repeat;
+}
+
+.card-3 {
+  background-image: url(../img/charizard.png);
+  height: 12em;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.second-section p {
+  height: 14em;
+  padding: 0 2em;
+  line-height: 1.5;
+}
+
+.second-section h2 {
+  color: OrangeRed;
+  margin: 1em 0;
+}
+
+.second-section button {
+  background-color: OrangeRed;
+  color: #FFF;
+  margin-top: 1em;
+  padding: 1em;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 6px;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  transition: background-color .3s ease-out;
+}
+
+.second-section button:hover {
+  background-color: Orange;
+}
+
+footer {
+  background-color: OrangeRed;
+  width: 100%;
+  height: 10em; 
+}
+
+.footer-text {
+  color: #fff;
+  padding: 5em 5em 0 5em;
+  text-align: right;
+}
+
+.fa-bars {
+  display: none;
+}
